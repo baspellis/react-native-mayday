@@ -1,0 +1,96 @@
+[{
+  "id": "4",
+  "resume": false,
+  "repeat": false,
+  "version": "1.x",
+  "title": [{
+    "text": "Mayday"
+  }],
+  "message": [{
+    "text": "Version 1, startup once, single language"
+  }],
+  "buttons": [{
+    "title": [{
+      "text": "Ok"
+    }]
+  }]
+}, {
+  "id": "3",
+  "startup": false,
+  "version": "2.x",
+  "title": [{
+    "text": "Test message"
+  }, {
+    "language": "nl",
+    "text": "Test bericht"
+  }],
+  "message": [{
+    "text": "Version 2, resume always, english (default) and dutch"
+  }, {
+    "language" : "nl",
+    "text": "Versie 2, hervatten altijd, engels (default) en nederlands"
+  }],
+  "buttons": [{
+    "title": [{
+      "text": "Download"
+    },
+    {
+      "language": "nl",
+      "text": "Downloaden"
+    }],
+    "action": {
+      "type": "link",
+      "value": "https://github.com/Panenka76"
+    }
+  }, {
+    "title": [{
+      "text": "Cancel"
+    },
+    {
+      "language": "nl",
+      "text": "Cancel"
+    }]
+  }]
+}, {
+  "id": "2",
+  "resume": false,
+  "title": [{
+    "text": "Test message"
+  }],
+  "message": [{
+    "text": "All versions, startup always"
+  }],
+  "buttons": [{
+    "title": [{
+      "text": "App store"
+    },
+    {
+      "language": "nl",
+      "text": "App store"
+    }],
+    "action": {
+      "type": "link",
+      "value": {
+        "ios": "https://apps.apple.com/nl/app/apple-store/id375380948",
+        "android": "https://play.google.com/store"
+      }
+    }
+  }, {
+    "title": [{
+      "text": "Cancel"
+    },
+    {
+      "language": "nl",
+      "text": "Cancel"
+    }]
+  }]
+},
+{
+  "id": "1",
+  "title": [{
+    "text": "Test message"
+  }],
+  "message": [{
+    "text": "All versions, startup and resume always"
+  }]
+}]
